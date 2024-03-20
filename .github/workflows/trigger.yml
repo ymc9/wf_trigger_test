@@ -10,7 +10,7 @@ jobs:
     
     strategy:
       matrix:
-        repo: ['@zenstackhq/sample-todo-nextjs']
+        repo: ['zenstackhq/sample-todo-nextjs']
         
     steps:
       - name: Repository Dispatch
